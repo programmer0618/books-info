@@ -1,0 +1,10 @@
+export { default as backgrouond } from "./backgrouond.svg";
+export { default as google } from "./google.svg";
+export { default as facebook } from "./facebook.svg";
+export { default as logo } from "./logo.svg";
+export { default as search } from "./search.svg";
+export { default as navbar_icon } from "./navbar_icon.svg";
+export { default as user_img } from "./user-image.svg";
+export { default as edit } from "./edit.svg";
+export { default as delet } from "./delete.svg";
+export { default as error } from "./error.svg";

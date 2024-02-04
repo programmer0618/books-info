@@ -1,0 +1,10 @@
+export { default as Login } from "./login";
+export { default as Register } from "./register";
+export { default as ButtonComponent } from "./button";
+export { default as Lines } from "./lines";
+export { default as Input } from "./input";
+export { default as Navbar } from "./navbar";
+export { default as Main } from "./main";
+export { default as BookCard } from "./book-card";
+export { default as EditeDelete } from "./edit_delete";
+export { default as ErrorPage } from "./error-page";

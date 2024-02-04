@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Mulish", sans-serif;
+  background-image: url("./images/backgrouond.svg");
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: auto;
+  background-clip: content-box;
+  background-attachment: fixed;
+}
+
+.input {
+  width: 100%;
+  height: 20px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  transition: all 0.1s;
+}
+.input:focus {
+  outline-color: rgb(30, 198, 239);
+}
+
+.loginbtn:hover {
+  background-color: #6200ee !important;
+}
+
+.sign_up {
+  color: blue;
+}
+
+.sign_up:active {
+  color: darkblue;
+}
+
+.searchinput {
+  border: none;
+  background-color: rgba(41, 40, 40, 0);
+  color: white;
+  outline: none;
+  width: 200px;
+  padding: 5px 5px 0px 20px;
+}
+
+.searchinput::placeholder {
+  color: rgb(207, 203, 201);
+}
+
+.searchinput:focus {
+  border-bottom: 1px solid rgb(158, 166, 239);
+}
+.created:hover {
+  background-color: #6200ee !important;
+}
+
+.closebook {
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.closebook:hover {
+  background-color: red;
+  color: white;
+  border-color: red !important;
+}
+
+.createclose {
+  background: #6200ee !important;
+}
+
+.createclose:hover {
+  background-color: #6200ee !important;
+}
+
+.animation {
+  animation: animation 0.5s ease;
+}
+
+@media screen and (max-width: 655px) {
+  .cardbook {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .input-create {
+    width: 90% !important;
+  }
+}
+
+@keyframes animation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
